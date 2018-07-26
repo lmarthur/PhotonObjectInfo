@@ -50,7 +50,7 @@ class PhotonObjectInfoExtractor : public edm::EDAnalyzer {
  
  //declare a function to do the photon analysis
       void analyzePhotons(const edm::Event& iEvent);
-  //declare the input tag for the electrons collection to be used (read from cofiguration)
+  //declare the input tag for the photons collection to be used (read from cofiguration)
   edm::InputTag photonsInput;
   
   //These variables will be global
