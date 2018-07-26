@@ -10,11 +10,11 @@
 
 #include "FWCore/ParameterSet/interface/ParameterSet.h"
 
-//classes included to extract electron information
+//classes included to extract photon information
 #include "DataFormats/PhotonReco/interface/Photon.h"
 #include "DataFormats/PhotonReco/interface/PhotonFwd.h" 
 
-//classes included to extract tracking for the electrons
+//classes included to extract tracking for the photons
 #include "DataFormats/TrackReco/interface/Track.h"
 #include "DataFormats/TrackReco/interface/TrackFwd.h"
 
