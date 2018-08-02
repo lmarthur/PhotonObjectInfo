@@ -159,7 +159,7 @@ PhotonObjectInfoExtractor::analyzePhotons(const edm::Event& iEvent)
   photon_pz.clear();
   photon_eta.clear();
   photon_phi.clear();
-  photon_ch.clear()
+  photon_ch.clear();
 
   edm::Handle<reco::PhotonCollection> myphotons;
 
