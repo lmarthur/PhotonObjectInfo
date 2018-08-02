@@ -10,8 +10,9 @@
 #include "FWCore/ParameterSet/interface/ParameterSet.h"
 
 //classes included to extract photon information
-#include "DataFormats/PhotonReco/interface/Photon.h"
-#include "DataFormats/PhotonReco/interface/PhotonFwd.h" 
+#include "DataFormats/EgammaCandidates/interface/PhotonFwd.h"
+#include "DataFormats/EgammaReco/interface/SuperCluster.h"
+#include "DataFormats/EgammaReco/interface/SuperClusterFwd.h"
 
 //classes included to extract tracking for the photons
 #include "DataFormats/TrackReco/interface/Track.h"
